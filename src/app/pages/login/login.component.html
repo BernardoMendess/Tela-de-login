@@ -5,6 +5,7 @@ secondaryBtnText="Signup"
 (submit)="submit()"
 (navigate)="navigate()"
 [disablePrimaryBtn]="!loginForm.valid">
+
 <form [formGroup]="loginForm">
 
     <app-primary-input
@@ -23,4 +24,5 @@ secondaryBtnText="Signup"
     
     <span>Forgot password?</span>
 </form>
+
 </app-default-login-layout>
